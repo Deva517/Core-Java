@@ -30,3 +30,12 @@ The Problem
 The Idea: Write Once, Run Anywhere (WORA)
 - Java introduced platform independence.
 - A Java program can be written once and run on different platforms without rewriting the code for each platform.
+
+
+**Java Evolution**
+1. Java 1.0 (Jan 1996)
+- JVM, core libraries, applets.
+- Introduced the concept of "Write Once, Run Anywhere (WORA)."
+2. Java 5 (2004)
+- Generics, annotations, enums.
+- Enhanced for-loop.
