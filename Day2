@@ -7,3 +7,39 @@
 
 -Jumping
 --continue,break,return
+
+if(condition) {
+    // statements
+}
+else {
+    // statements
+}
+
+-ladder:
+if(condition1) {
+    // statements
+}
+else if(condition2) {
+    // statements
+}
+else if(condition3) {
+    // statements
+}
+else {
+    // statements
+}
+
+-Nested if:
+if(condition1) {
+
+    if(condition2) {
+        // statements
+    }
+    else {
+        // statements
+    }
+
+}
+else {
+    // statements
+}
