@@ -72,3 +72,6 @@ Operators
 | `%` | Modulus (Remainder) | `10 % 3` | 1 |
 | `++` | Increment | `a++` | a = a + 1 |
 | `--` | Decrement | `a--` | a = a - 1 |
+
+-Terenary operator
+(condition)?yes:no
