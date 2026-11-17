@@ -39,3 +39,36 @@ The Idea: Write Once, Run Anywhere (WORA)
 2. Java 5 (2004)
 - Generics, annotations, enums.
 - Enhanced for-loop.
+
+
+
+Numerical datatypes:byte,short,int,float,double
+String datatype:char,string
+Boolean datatype:bool
+
+Variable rules:
+-Should'nt start numbers,special symbols
+-do not contain space
+
+Method Explanation
+Scanner method  example  return type
+nextInt()        2        int
+nextFloat()      4.5      float
+nextDouble()     5.5      double
+nextLong()       12345    long
+nextShort()      10       short
+nextByte()       100      byte
+next()           Mustak   String
+nextLine()       Hello    String
+nextBoolean()    true     boolean
+
+Operators
+-Arthemitic operators
+| Operator    Name     Example   Result 
+| `+` | Addition | `10 + 5` | 15 |
+| `-` | Subtraction | `10 - 5` | 5 |
+| `*` | Multiplication | `10 * 5` | 50 |
+| `/` | Division | `10 / 5` | 2 |
+| `%` | Modulus (Remainder) | `10 % 3` | 1 |
+| `++` | Increment | `a++` | a = a + 1 |
+| `--` | Decrement | `a--` | a = a - 1 |
