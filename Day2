@@ -8,14 +8,14 @@
 -Jumping
 --continue,break,return
 
-if(condition) {
+**if(condition) {
     // statements
 }
 else {
     // statements
 }
 
--ladder:
+*-ladder:
 if(condition1) {
     // statements
 }
@@ -29,7 +29,7 @@ else {
     // statements
 }
 
--Nested if:
+*-Nested if:
 if(condition1) {
 
     if(condition2) {
