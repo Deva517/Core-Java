@@ -37,3 +37,15 @@ It initializes the new object’s state. It is used to set default or user-defin
 3.without par,with return type
 4.||         ,without return type
 
+
+--static and Non-static--
+A static method can be accessed without creating an object of the class first:
+EX:
+class v{
+static int va(int a,int b){
+return a*b;
+}
+psvm(){
+v.va(10,2);
+}
+
