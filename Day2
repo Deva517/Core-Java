@@ -43,3 +43,48 @@ if(condition1) {
 else {
     // statements
 }
+
+
+
+String methods 
+1.ComapreTo()
+2.equals()
+
+*Find:
+1.contains()
+2.startWith()
+3.endWith()
+
+*Transform:
+1.Trim()
+2.strip()
+
+*Replace:
+1.replace()
+2.replaceall()
+3.replaceExist()
+
+
+1.split()
+2.join()
+3.valueof()
+
+1.matchs()
+2.formatted()
+
+**String Builders**
+StringBuffer obj1=new StringBuffer("Hi");
+StringBuilder obj=new StringBuilder("Hello");
+obj.append("deva");
+obj.insert(2,"is");
+obj.replace(3,4,"world");
+obj.delete(1,3);
+obj.charAt(4);
+obj.reverse();
+obj.capacity();
+obj.toString();
+
+
+
+
+
