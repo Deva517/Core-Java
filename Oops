@@ -49,3 +49,68 @@ psvm(){
 v.va(10,2);
 }
 
+--Normal class--
+class g{
+int id;
+String name;
+void display(){
+System.out.print(id);
+System.out.print(name);
+}
+psvm(){
+g s1=new g();
+s1.id=20;
+s1.name="deva";
+s1.display();
+}
+}
+
+
+--Abstract class--
+abstract class mts {
+    abstract void display();
+
+    void venu() {
+        System.out.println("Welcome to MITS University!");
+    }
+}
+
+class Student extends mts {
+    int id;
+    String name;
+    double cgpa;
+
+    void display() {
+        System.out.println("Student ID: " + id);
+        System.out.println("Student Name: " + name);
+        System.out.println("CGPA: " + cgpa);
+    }
+}
+public class mtsdemo {
+    public static void main(String[] args) {
+        Student s = new Student();
+
+        s.id = 101;
+        s.name = "Deva";
+        s.cgpa = 9.2;
+
+        s.display();
+        s.venu();
+    }
+}
+
+
+--Nested class--
+class m{
+String name="Deva";
+class m2{
+void display(){
+System.out.print("2nd class");
+}
+}
+psvm(){
+m demo=new m();
+m.m2 s1=demo.new m2();
+s1.display()
+}
+}
