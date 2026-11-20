@@ -18,11 +18,7 @@ It initializes the new object’s state. It is used to set default or user-defin
 2.Parameter ||
 3.without || ||
 
---Pillars of OOPS--
-1.Inheritance
-2.Polymorphism
-3.Abstarction
-4.Encapsulation
+
 
 --Access Modifiers--
 1.private
@@ -114,3 +110,28 @@ m.m2 s1=demo.new m2();
 s1.display()
 }
 }
+
+
+
+--Pillars of OOPS--
+1.Inheritance
+2.Polymorphism
+3.Abstarction
+4.Encapsulation
+
+
+**Encapsulation**
+--The meaning of Encapsulation, is to make sure that "sensitive" data is hidden from users. To achieve this, you must:
+-declare class variables/attributes as private
+-provide public get and set methods to access and update the value of a private variable
+
+**Polymorphism**
+--Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance.
+
+**Inheritance**
+-- it is possible to inherit attributes and methods from one class to another. We group the "inheritance concept" into two categories:
+-subclass (child) - the class that inherits from another class
+-superclass (parent) - the class being inherited from
+-To inherit from a class, use the extends keyword.
+
+
