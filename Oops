@@ -124,14 +124,58 @@ s1.display()
 --The meaning of Encapsulation, is to make sure that "sensitive" data is hidden from users. To achieve this, you must:
 -declare class variables/attributes as private
 -provide public get and set methods to access and update the value of a private variable
+(Syntax):
+class Student {
+    private int age;
+
+    void setAge(int a) {
+        age = a;
+    }
+
+    int getAge() {
+        return age;
+    }
+
+    public static void main(String[] args) {
+        Student s = new Student();
+        s.setAge(20);
+        System.out.println(s.getAge());
+    }
+}
+
+
 
 **Polymorphism**
 --Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance.
+(Syntax):
+class Demo {
+    void add(int a, int b) {
+        System.out.println(a + b);
+    }
+
+    void add(int a, int b, int c) {
+        System.out.println(a + b + c);
+    }
+}
+
 
 **Inheritance**
 -- it is possible to inherit attributes and methods from one class to another. We group the "inheritance concept" into two categories:
 -subclass (child) - the class that inherits from another class
 -superclass (parent) - the class being inherited from
 -To inherit from a class, use the extends keyword.
+(Syntax):
+class Parent {
+    void display() {
+        System.out.println("Parent class");
+    }
+}
+
+class Child extends Parent {
+    public static void main(String[] args) {
+        Child obj = new Child();
+        obj.display();
+    }
+}
 
 
